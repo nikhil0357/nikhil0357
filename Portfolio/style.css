@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background: #fafafa;
+    color: #2c2c2c;
+  }
+  
+  /* INTRO */
+  .intro {
+    min-height: 100vh;
+    background: #1f2933;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .intro p {
+    max-width: 600px;
+    margin-bottom: 25px;
+  }
+  
+  .btn {
+    padding: 12px 30px;
+    background: #f59e0b;
+    color: #1f2933;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  
+  /* SECTIONS */
+  section {
+    padding: 70px 100px;
+  }
+  
+  h2 {
+    margin-bottom: 25px;
+  }
+  
+  /* ABOUT */
+  .about {
+    background: #ffffff;
+  }
+  
+  .about .content {
+    max-width: 800px;
+  }
+  
+  /* SKILLS */
+  .skills {
+    background: #f3f4f6;
+  }
+  
+  .skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .skill-box span {
+    background: #ffffff;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  
+  /* WORK */
+  .work-item {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 5px solid #f59e0b;
+  }
+  
+  .work-item a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #f59e0b;
+    font-weight: 500;
+  }
+  
+  /* CONTACT */
+  .contact {
+    text-align: center;
+    background: #1f2933;
+    color: #ffffff;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #111827;
+    color: #ffffff;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    section {
+      padding: 40px 25px;
+    }
+  
+    .intro h1 {
+      font-size: 2.2rem;
+    }
+  }
